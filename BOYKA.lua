@@ -2604,7 +2604,7 @@ local Text =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text ='text'=>'اضغط هنا عيوني 🎸“ 𖢛 ','url'=>'t.me/A_Y_M_22Bot'},
+{text ='text'=>'اضغط هنا عيوني 🎸“ 𖢛 ','url'=>'t.me/A_Y_M_22Bot'}
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
