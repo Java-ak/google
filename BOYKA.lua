@@ -286,6 +286,8 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
+elseif tonumber(user_id) == tonumber(1208165035) then
+var = 'مبرمج السورس'
 if tonumber(user_id) == tonumber(1044506670) then  
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1330590972) then
@@ -1090,7 +1092,7 @@ return false
 end
 if text == ("• المطورين") and DevBOYKAW(msg) then
 local list = database:smembers(bot_id..'Sudo:User')
-t = "\n♪ قائمة المطورين \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المطورين \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -1106,7 +1108,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("• قائمه العام") and DevBOYKAW(msg) then
 local list = database:smembers(bot_id..'GBan:User')
-t = "\n♪ قائمه المحظورين عام \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمه المحظورين عام \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -1123,7 +1125,7 @@ return false
 end
 if text == ("قائمه الكتم العام") and DevBOYKAW(msg) then
 local list = database:smembers(bot_id..'Gmute:User')
-t = "\n♪ قائمة المكتومين عام \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المكتومين عام \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -2361,7 +2363,7 @@ database:set(bot_id.."AL:Sre:stats","❌")
 end
 if text == "الاضافات" and Constructor(msg) then
 local Xx = database:get(bot_id.."AL:Sre:stats") or "لم يتم التحديد"
-send(msg.chat_id_, msg.id_,"الاضافات هي :\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n1- كتم الاسماء \n١- كتم اسم +(اسم)\n٢-الغاء كتم اسم +(اسم)\n٣- الاسماء المكتومه\n٤- تفعيل كتم الاسم\n٥- تعطيل كتم الاسم\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n2- وضع توحيد \n١- وضع توحيد +(التوحيد)\n٢- تعين عدد الكتم+(العدد)\n٣- التوحيد\n٤- تفعيل التوحيد\n٥- تعطيل التوحيد \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n3- تنبيه الاسماء \n ۱- تفعيل تنبيه الاسماء \n ۲- تعطيل تنبيه الاسماء\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•  \n 4- تنبيه المعرف \n ١- تفعيل تنبيه المعرف \n ۲- تعطيل تنبيه المعرف\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•  \n5- تنبيه الصور \n ۱- تفعيل تنبيه الصور \n٢- تعطيل تنبيه الصور \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n حاله الاضافات هي : "..Xx.."\nاذا كانت ❌ الاضافات معطله\nاذا كانت ✔ الاضافات مفعله")
+send(msg.chat_id_, msg.id_,"الاضافات هي :\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n1- كتم الاسماء \n١- كتم اسم +(اسم)\n٢-الغاء كتم اسم +(اسم)\n٣- الاسماء المكتومه\n٤- تفعيل كتم الاسم\n٥- تعطيل كتم الاسم\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n2- وضع توحيد \n١- وضع توحيد +(التوحيد)\n٢- تعين عدد الكتم+(العدد)\n٣- التوحيد\n٤- تفعيل التوحيد\n٥- تعطيل التوحيد \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n3- تنبيه الاسماء \n ۱- تفعيل تنبيه الاسماء \n ۲- تعطيل تنبيه الاسماء\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•  \n 4- تنبيه المعرف \n ١- تفعيل تنبيه المعرف \n ۲- تعطيل تنبيه المعرف\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•  \n5- تنبيه الصور \n ۱- تفعيل تنبيه الصور \n٢- تعطيل تنبيه الصور \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n حاله الاضافات هي : "..Xx.."\nاذا كانت ❌ الاضافات معطله\nاذا كانت ✔ الاضافات مفعله")
 end
 function bnnaGet(user_id, cb)
 tdcli_function ({
@@ -2390,7 +2392,7 @@ send(msg.chat_id_, msg.id_, texts)
 end
 if text == "الاسماء المكتومه" and Constructor(msg) and database:get(bot_id.."block:name:stats"..msg.chat_id_) == "open" then
 local All_name = database:smembers(bot_id.."BOYKA:blocname"..msg.chat_id_)
-t = "\n♪ قائمة الاسماء المكتومه \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة الاسماء المكتومه \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(All_name) do
 t = t..""..k.."- (["..v.."])\n"
 end
@@ -2659,7 +2661,7 @@ GetFile_Bot(msg)
 end
 if text == 'الاوامر المضافه' and Constructor(msg) then
 local list = database:smembers(bot_id..'List:Cmd:Group:New'..msg.chat_id_..'')
-t = "♪ قائمه الاوامر المضافه  \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "♪ قائمه الاوامر المضافه  \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 Cmds = database:get(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..':'..v)
 print(Cmds)
@@ -3496,7 +3498,7 @@ return false
 end
 if text == ("قائمه العام") and DevBOYKAW(msg) then
 local list = database:smembers(bot_id..'GBan:User')
-t = "\n♪ قائمة المحظورين عام \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المحظورين عام \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -3892,7 +3894,7 @@ send(msg.chat_id_, msg.id_, "\n♪ تم مسح قائمة المطورين  ")
 end
 if text == ("المطورين") and DevBOYKAW(msg) then
 local list = database:smembers(bot_id..'Sudo:User')
-t = "\n♪ قائمة مطورين البوت \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة مطورين البوت \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -3969,7 +3971,7 @@ end,nil)
 end
 end
 if text == 'الملفات' and DevBOYKAW(msg) then
-t = '♪ ملفات السورس جاڤا ↓\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n'
+t = '♪ ملفات السورس جاڤا ↓\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
 if v:match(".lua$") then
@@ -3986,8 +3988,8 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n♪ اهلا بك في متجر ملفات جاڤا\n♪ ملفات السورس ↓\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n\n"
-local TextE = "\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n♪ علامة تعني { ✓ } ملف مفعل\n♪ علامة تعني { ✘ } ملف معطل\n♪ قناة سورس جاڤا ↓\n".."♪ [اضغط هنا لدخول](t.me/Source_javaa) \n"
+local TextS = "\n♪ اهلا بك في متجر ملفات جاڤا\n♪ ملفات السورس ↓\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n\n"
+local TextE = "\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n♪ علامة تعني { ✓ } ملف مفعل\n♪ علامة تعني { ✘ } ملف معطل\n♪ قناة سورس جاڤا ↓\n".."♪ [اضغط هنا لدخول](t.me/Source_javaa) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
 local Check_File_is_Found = io.open("File_Bot/"..name,"r")
@@ -4209,7 +4211,7 @@ end
 
 if text == 'قائمه المالك' and Sudo(msg) then
 local list = database:smembers(bot_id..'CoSu'..msg.chat_id_)
-t = "\n♪ قائمه المالك \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمه المالك \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4226,7 +4228,7 @@ return false
 end
 if text == ("صيح للمالك") or text == ("تاك للمالك") then
 local list = database:smembers(bot_id..'CoSu'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4440,7 +4442,7 @@ st = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..tok
 eker = JSON.decode(st)
 if eker.ok.Info == "Indecent" then
 local list = database:smembers(bot_id.."Basic:Constructor"..msg.chat_id_)
-t = "♪ المنشئين الاساسين تعالو مخرب \n  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n"
+t = "♪ المنشئين الاساسين تعالو مخرب \n  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4506,7 +4508,7 @@ Srrt = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..t
 Sto = JSON.decode(Srrt)
 if Sto.ok.Info == "Indecent" then
 local list = database:smembers(bot_id.."Basic:Constructor"..msg.chat_id_)
-t = "♪ المنشئين الاساسين تعالو مخرب \n  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n"
+t = "♪ المنشئين الاساسين تعالو مخرب \n  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4524,7 +4526,7 @@ end
 end
 if text == 'المنشئين الاساسين' and CoSu(msg) then
 local list = database:smembers(bot_id..'Basic:Constructor'..msg.chat_id_)
-t = "\n♪ قائمة المنشئين الاساسين \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المنشئين الاساسين \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4541,7 +4543,7 @@ return false
 end
 if text == ("تاك للمنشئين الاساسين") or text == ("صيح المنشئين الاساسين") then
 local list = database:smembers(bot_id..'Basic:Constructor'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4709,7 +4711,7 @@ end
 
 if text == ("المنشئين") and BasicConstructor(msg) then
 local list = database:smembers(bot_id..'Constructor'..msg.chat_id_)
-t = "\n♪ قائمة المنشئين \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المنشئين \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4725,7 +4727,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للمنشئين") or text == ("صيح المنشئين") then
 local list = database:smembers(bot_id..'Constructor'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4906,7 +4908,7 @@ send(msg.chat_id_, msg.id_, texts)
 end
 if text == ("المدراء") and Constructor(msg) then
 local list = database:smembers(bot_id..'Manager'..msg.chat_id_)
-t = "\n♪ قائمة المدراء \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المدراء \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -4922,7 +4924,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للمدراء") or text == ("صيح المدراء") then
 local list = database:smembers(bot_id..'Manager'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5168,7 +5170,7 @@ return false
 end
 if text == ("الثانويين") and SudoBot(msg) then
 local list = database:smembers(bot_id.."DEV:Sudo:T")
-t = "\n♪ قائمة مطورين الثانويين للبوت \n  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻• \n"
+t = "\n♪ قائمة مطورين الثانويين للبوت \n  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻• \n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5192,7 +5194,7 @@ send(msg.chat_id_, msg.id_, '♪ تم مسح الادمنيه')
 end
 if text == ("الادمنيه") and Manager(msg) then
 local list = database:smembers(bot_id..'Mod:User'..msg.chat_id_)
-t = "\n♪ قائمة الادمنيه \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة الادمنيه \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5208,7 +5210,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للادمنيه") or text == ("صيح الادمنيه") then
 local list = database:smembers(bot_id..'Mod:User'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5529,7 +5531,7 @@ send(msg.chat_id_, msg.id_, '♪ تم مسح المميزين')
 end
 if text == ("المميزين") and Mod(msg) then
 local list = database:smembers(bot_id..'Special:User'..msg.chat_id_)
-t = "\n♪ قائمة مميزين الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة مميزين الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5545,7 +5547,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للمميزين") or text == ("صيح المميزين") then
 local list = database:smembers(bot_id..'Special:User'..msg.chat_id_)
-t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ وينكم تعالو يريدوكم بجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5724,7 +5726,7 @@ send(msg.chat_id_, msg.id_, '♪ تم مسح جميع الحمير')
 end
 if text == ("تاك للحمير") and Mod(msg) then
 local list = database:smembers(bot_id..'Mote:User'..msg.chat_id_)
-t = "\n♪ قائمة حمير الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة حمير الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5805,7 +5807,7 @@ send(msg.chat_id_, msg.id_, '♪ تم مسح جميع الوتكات')
 end
 if text == ("تاك للوتكات") and Mod(msg) then
 local list = database:smembers(bot_id..'Mode:User'..msg.chat_id_)
-t = "\n♪ قائمه حاتات الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمه حاتات الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5871,7 +5873,7 @@ end
 
 if text == ("تاك للحكاكين") and Mod(msg) then
 local list = database:smembers(bot_id..'Modde:User'..msg.chat_id_)
-t = "\n♪ قائمه الحكاكين بالجروب \n  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمه الحكاكين بالجروب \n  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5940,7 +5942,7 @@ send(msg.chat_id_, msg.id_, '♪ تم تنزيل جميع خولات الجرو�
 end
 if text == ("تاك للخولات") and Mod(msg) then
 local list = database:smembers(bot_id..'Sakl:User'..msg.chat_id_)
-t = "\n♪ قائمة خولات الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة خولات الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6010,7 +6012,7 @@ send(msg.chat_id_, msg.id_, '♪ تم تنزيل جميع كلاب المجمو�
 end
 if text == ("تاك للكلاب") and Mod(msg) then
 local list = database:smembers(bot_id..'Motte:User'..msg.chat_id_)
-t = "\n♪ قائمة كلاب المجموعة \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة كلاب المجموعة \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6079,7 +6081,7 @@ send(msg.chat_id_, msg.id_, '♪ تم تنزيل جميع القروده بال�
 end
 if text == ("تاك للقروده") and Mod(msg) then
 local list = database:smembers(bot_id..'Motee:User'..msg.chat_id_)
-t = "\n♪ قائمة القروده الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة القروده الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6149,7 +6151,7 @@ send(msg.chat_id_, msg.id_, '♪ تم تنزيل جميع البقرات بال�
 end
 if text == ("تاك للبقرات") and Mod(msg) then
 local list = database:smembers(bot_id..'Bakra:User'..msg.chat_id_)
-t = "\n♪ قائمة البقرات الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة البقرات الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6219,7 +6221,7 @@ send(msg.chat_id_, msg.id_, '♪ تم تنزيل جميع المتناكين')
 end
 if text == ("تاك للمتناكين") and Mod(msg) then
 local list = database:smembers(bot_id..'Jred:User'..msg.chat_id_)
-t = "\n♪ قائمة متناكين الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة متناكين الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6288,7 +6290,7 @@ send(msg.chat_id_, msg.id_, '\n♪ تم مسح المحظورين')
 end
 if text == ("المحظورين") then
 local list = database:smembers(bot_id..'Ban:User'..msg.chat_id_)
-t = "\n♪ قائمة محظورين الجروب \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة محظورين الجروب \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -6528,7 +6530,7 @@ send(msg.chat_id_, msg.id_, '♪ تم مسح المكتومين')
 end
 if text == ("المكتومين") and Mod(msg) then
 local list = database:smembers(bot_id..'Muted:User'..msg.chat_id_)
-t = "\n♪ قائمة المكتومين \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المكتومين \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -7860,12 +7862,12 @@ return false
 end
 local link = database:get(bot_id.."Private:Group:Link"..msg.chat_id_)            
 if link then                              
-send(msg.chat_id_,msg.id_,'𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n ['..link..']')                          
+send(msg.chat_id_,msg.id_,'𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n ['..link..']')                          
 else                
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
 database:set(bot_id.."Private:Group:Link"..msg.chat_id_,linkgpp.result)
-linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  ??\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n ['..linkgpp.result..']'
+linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  ??\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n ['..linkgpp.result..']'
 else
 linkgp = ' ♪  لا يوجد رابط ارسل ضع رابط'
 end  
@@ -8078,7 +8080,7 @@ end
 
 if text == "قائمه المنع" and Manager(msg) then   
 local list = database:smembers(bot_id.."BOYKA1:List:Filter"..msg.chat_id_)  
-t = "\n♪ قائمة المنع \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة المنع \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do  
 local BOYKA_Msg = database:get(bot_id.."BOYKA1:Add:Filter:Rp2"..v..msg.chat_id_)   
 t = t..""..k.."- "..v.." » {"..BOYKA_Msg.."}\n"    
@@ -8224,7 +8226,7 @@ return false
 end
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = getChatId(msg.chat_id_).ID,filter_ = {ID = "ChannelMembersBots"},offset_ = 0,limit_ = 100 },function(extra,result,success)
 local admins = result.members_  
-text = "\n♪ قائمة البوتات الموجوده \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+text = "\n♪ قائمة البوتات الموجوده \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 local n = 0
 local t = 0
 for i=0 , #admins do 
@@ -8243,7 +8245,7 @@ send(msg.chat_id_, msg.id_, "♪ لا توجد بوتات في الجروب")
 return false 
 end
 if #admins == i then 
-local a = '\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n♪ عدد البوتات التي هنا >> {'..n..'} بوت\n'
+local a = '\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n♪ عدد البوتات التي هنا >> {'..n..'} بوت\n'
 local f = '♪ عدد البوتات التي هي ادمن >> {'..t..'}\n♪ ملاحضه علامة ال (✯) تعني ان البوت ادمن \n'
 send(msg.chat_id_, msg.id_, text..a..f)
 end
@@ -8332,7 +8334,7 @@ if #list == 0 then
 send(msg.chat_id_, msg.id_,'♪ لا توجد صلاحيات مضافه')
 return false
 end
-t = "\n♪ قائمة الصلاحيات المضافه \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+t = "\n♪ قائمة الصلاحيات المضافه \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 var = database:get(bot_id.."Comd:New:rt:bot:"..v..msg.chat_id_)
 if var then
@@ -8821,7 +8823,7 @@ return false
 end
 tdcli_function({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub('-100',''), offset_ = 0,limit_ = 200
 },function(ta,BOYKA)
-local t = "\nツ قائمة الاعضاء \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+local t = "\nツ قائمة الاعضاء \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 x = 0
 local list = BOYKA.members_
 for k, v in pairs(list) do
@@ -8934,7 +8936,7 @@ end
 
 if text == ("ردود المطور") and DevBOYKAW(msg) then 
 local list = database:smembers(bot_id..'List:Rd:Sudo')
-text = "\n♪ قائمة ردود المطور \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+text = "\n♪ قائمة ردود المطور \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 if database:get(bot_id.."Add:Rd:Sudo:Gif"..v) then
 db = 'متحركه'
@@ -9120,7 +9122,7 @@ end
 
 if text == ("ردود المدير") and Manager(msg) then
 local list = database:smembers(bot_id..'List:Manager'..msg.chat_id_..'')
-text = "♪ قائمه ردود المدير \n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n"
+text = "♪ قائمه ردود المدير \n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n"
 for k,v in pairs(list) do
 if database:get(bot_id.."Add:Rd:Manager:Gif"..v..msg.chat_id_) then
 db = 'متحركه'
@@ -10512,7 +10514,7 @@ Text = [[
 ⚘ م8 ⬌ أوامر مطور البوت
 ⚘ م9 ⬌ أوامر المطور الاساسي 
 ⚘ م10 ⬌ أوامر الأعضاء
- 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•
+ 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•
 
 ✘• تواصل معي للأستفسار ↤ @Amr_Khaleid
 ]]
@@ -10545,13 +10547,13 @@ if text and text:match("^زخرفه (.*)$") and database:get(bot_id.." amir:zhrf
 local TextZhrfa = text:match("^زخرفه (.*)$")
 zh = https.request('https://forhassan.ml/Black/hso.php?en='..URL.escape(TextZhrfa)..'')
 zx = JSON.decode(zh)
-t = "\n♪ قائمه الزخرفه \nٴ♪  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•♪○ٴ \n"
+t = "\n♪ قائمه الزخرفه \nٴ♪  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•♪○ٴ \n"
 i = 0
 for k,v in pairs(zx.ok) do
 i = i + 1
 t = t..i.."-  "..v.." \n"
 end
-send(msg.chat_id_, msg.id_, t..'ٴ♪  𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•♪○ٴ\n♪ 彡 .[𝘉𝘖𝘠𝘒𝘈 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/Source_javaa)➢ ')
+send(msg.chat_id_, msg.id_, t..'ٴ♪  𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•♪○ٴ\n♪ 彡 .[𝘉𝘖𝘠𝘒𝘈 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/Source_javaa)➢ ')
 end
 if text == "تعطيل الابراج" and Manager(msg) then
 send(msg.chat_id_, msg.id_, '♪ تم تعطيل الابراج')
@@ -10909,7 +10911,7 @@ end
 if #list == 0 then
 t = "♪ لا يوجد ادمن"
 end
-send(msg.chat_id_,0,''..t..'\n 𓇠 ⟼⟼⟼ʙʟᴀɴᴄᴋ 𖠱²²⟻⟻⟻•\n♪ تم التعديل على الميديا\n♪ الشخص الي قام بالتعديل\n♪ ايدي الشخص ◂ '..result.sender_user_id_..'\n♪ معرف الشخص»{ '..users..' }') 
+send(msg.chat_id_,0,''..t..'\n 𓇠 ⟼⟼⟼ᴊᴀᴠᴀ 𖠱²²⟻⟻⟻•\n♪ تم التعديل على الميديا\n♪ الشخص الي قام بالتعديل\n♪ ايدي الشخص ◂ '..result.sender_user_id_..'\n♪ معرف الشخص»{ '..users..' }') 
 end,nil)
 DeleteMessage(msg.chat_id_,{[0] = msg.message_id_}) 
 end
